@@ -1,0 +1,141 @@
+body {
+  background-color: #61122f;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav{
+  border-radius: 0;
+  border: 0;
+  background-color: #ff3384;
+  height: px
+}
+
+.navbar-brand{
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.navbar-brand h1{               
+  color: black; 
+  text-shadow: 1px 1px 1px ;
+  margin-top: 0px;
+  padding-top: 0px
+}
+.navbar-brand a:hover{
+  text-decoration: none;
+   color: yellow;
+}
+
+#nav-list{                  
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #cccccc;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+border: 1.5px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+padding-top: 10px
+margin-top:0px;
+}
+
+/*collapsable navigation*/
+
+#collapsable-nav{
+
+  text-align: center;
+
+}
+#collapsable-nav a{
+font-size: 1.5em; 
+}
+
+
+/* HOME PAGE */
+#main-content{
+  background-color: gray;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 25px
+}
+#kk{
+
+  margin-left: 20px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+  
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 1px;
+    height: 50px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    margin-left: 0px;
+    text-shadow: 1px 1px 1px
+    font-size: 8vw; /* 1vw = 1% of viewport width */
+   padding-left: 0px;
+   margin-bottom: 0px;
+  }
+
+#main-content{
+  background-color: gray;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#kk{
+
+  margin-left: 5px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+  }
+@media (max-width: 400px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 1px;
+    height: 50px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 12px;
+    margin-left: 5px;
+    text-shadow: 1px 1px 1px;
+    font-size: 8vw; /* 1vw = 1% of viewport width */
+   padding-left: 0px;
+   margin-bottom: 2px;
+   color: yellow;
+
+  }
+  #main-content{
+  background-color: gray;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#kk{
+
+  margin-left: 5px;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
